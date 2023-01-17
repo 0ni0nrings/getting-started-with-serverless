@@ -6,8 +6,6 @@ SPDX-License-Identifier: MIT-0
 
 //include aws-sdk
  var AWS = require('aws-sdk');
- // Set the region 
-AWS.config.update({region: 'REGION'});
  // Create S3 service object
 s3 = new AWS.S3({apiVersion: '2006-03-01'});
  
